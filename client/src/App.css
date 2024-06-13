@@ -1,0 +1,48 @@
+.app {
+  display: flex;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+.menu-item {
+  padding: 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-item:hover {
+  background-color: #ddd;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.status.active {
+  color: green;
+}
+
+.status.inactive {
+  color: red;
+}

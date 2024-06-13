@@ -1,0 +1,47 @@
+.container{
+    margin: auto;
+    background-color: #ded3e8;
+    width: 100%;
+    height: 100vh;
+}
+
+.loginContainer {
+    position: absolute;
+    width: 300px;
+    top: 100px;
+    left: 103px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    border: 1px solid #000;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 0px 30px 0px;
+}
+
+.logo img{
+    width: 180px;
+    height: 7em;
+    padding: 1.5em;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.btn, input, label{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+.btn-primary{
+    margin-top: 10px;
+    background-color: #5C218B;
+    font-weight: 500;
+}
