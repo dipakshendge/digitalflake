@@ -1,7 +1,7 @@
 route information
 
-for rsgistration
-localhost:5000/api/auth/register
+for rsgistration,
+localhost:5000/api/auth/register,
 data
 {
         "username":"Dipak", 
@@ -10,15 +10,15 @@ data
         "password":"Dipak123"
 }
 
-for login
-localhost:5000/api/auth/login
+for login,
+localhost:5000/api/auth/login,
 
 {
     "email":"dipak@gmail.com",
     "password":"Dipak"
 }
 
-below login all route require token for access
+below login all route require token for access,
 
 add city
 localhost:5000/api/data/city
